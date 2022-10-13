@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,600&display=swap');
+
+main #order{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main .wrapper{
+    padding: 2rem;
+    background-color: #FFFFFF;
+    height: 75vh;
+    width: 40vw;
+    text-align: center;
+}
+
+main .wrapper h2{
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+
+main .wrapper .font-icon{
+    margin-bottom: 4rem;
+} 
+
+main .wrapper  h3{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+main .wrapper  .order-text{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+main .wrapper .order-description{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+
+main .wrapper .secondary-btn{
+    display: inline-block;
+    border: 1px solid #67B2AE;
+    padding: 2rem 5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #67B2AE;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    transition: all 0.4s ease;
+}
+
+main .wrapper .secondary-btn:hover{
+    border: 1px solid #67B2AE;
+    color: #67B2AE;
+    background-color: #FFFFFF;    
+}

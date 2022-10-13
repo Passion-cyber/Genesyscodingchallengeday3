@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  line-height: 1.5em;
+  color: #000;
+  background-color: #f5f5f5;
+}
+
+a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.fa-big {
+  font-size: 40px;
+  color: #5dc895;
+  display: block;
+}
+
+.tertiary-btn{   
+    display: inline-block;
+    padding: .8rem 4rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    background-color: #FFFFFF;
+    color: #67B2AE;
+    border-radius: 1rem;
+    border: 1px solid #67B2AE;
+    transition: all 0.4s ease;
+}
+
+.tertiary-btn:hover{
+   background-color: #67B2AE;
+   border: 1px solid #FFFFFF;
+   color: #FFFFFF;
+}
+
+.primary-btn{   
+     display: inline-block;
+     padding: .8rem 4rem;
+     text-align: center;
+     text-transform: capitalize;
+     font-size: 1.5rem;
+     background-color: #67B2AE;
+     color: #FFFFFF;
+     border-radius: 1rem;
+     border: 1px solid #67B2AE;
+     transition: all 0.4s ease;
+}
+
+.primary-btn:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #67B2AE;
+    color: #67B2AE;
+}
+
+
+main .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main .landing-area {
+  display: grid;
+  grid-template-columns: 3fr 6fr;
+  gap: 1rem;
+  position: relative;
+}
+
+.landing-left {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 1rem;
+  position: relative;
+}
+
+.landing-left .landing-left-wrapper {
+  background-color: #f7fbfb;
+  margin: 2rem 1.2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.landing-left .landing-left-wrapper h1 {
+  font-size: 2rem;
+  color: #5dc895;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#wrap > div {
+  display: grid;
+  grid-template-columns: 30% 55% 30%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+#wrap > div:hover {
+    transform: scaleX(1.1);
+    border-bottom: 2px solid #ccc;
+    
+}
+
+#wrap .first-wrap,
+.second-wrap,
+.third-wrap div > p:nth-child(1) {
+  font-size: 0.97rem;
+  font-weight: 400;
+}
+
+.landing-left-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.landing-left-footer p{
+position: relative;
+left: 1.8rem;
+} 
+
+.landing-right {
+  background-color: #ffffff;
+  width: 450px;
+  padding: 1rem;
+  position: relative;
+}
+  
+  .landing-right .landing-right-wrapper {
+    margin: 2rem 1.2rem;
+    width: 400px;
+    /* alignment from the top
+    can be fixed from this element */
+    padding: 0 2rem ;
+    position: relative;
+  }
+
+
+.landing-right-wrapper .payment-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.payment-cards .individual-cards{
+    text-align: center;
+    background-color: #f7fbfb;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 110px;
+    height: 80px;
+    transition: all 0.4s ease;
+}
+
+.payment-cards .individual-cards:hover{
+    border: 2px solid ;
+    transform: scale(1.2);
+    border: 2px solid #75F5B8;
+
+}
+
+ .payment-cards .exception-card{
+    border: 2px solid #75F5B8;
+}
+
+.payment-cards h4{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(121, 118, 118);
+    margin-bottom: .2rem;
+    text-transform: capitalize;
+}
+
+.payment-cards .icon{
+    color: #2790C3;
+    font-size: 40px;
+}
+
+.landing-right-wrapper .card-address h6{
+    color: rgb(121, 118, 118);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.landing-right-wrapper .card-address p{
+    color: rgb(121, 118, 118);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.landing-right-wrapper .card-address{
+    width: 100%;
+    border-bottom: 1px solid rgb(219, 216, 216);
+    margin-bottom: 2rem;
+}
+
+.form-inputs{
+   margin-top: 2rem;
+} 
+
+.form-inputs h5{
+    position: absolute;
+    top: 197px;
+    left: 30px;
+    background-color: #ffffff;
+    padding: .2rem;
+    text-transform: capitalize;
+}
+
+.form-inputs .individual-input{
+    margin-bottom: 1rem;
+}
+
+.form-inputs .individual-input input[type="text"]{
+    padding: 1rem;
+    width: 100%;
+    height: 3rem;
+    background-color: #f5f5f5;
+    margin-bottom: 3rem;
+    border: none;
+}
+
+.form-inputs .flex-inputs{
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+.flex-inputs input[type="text"]{
+    background-color: #f5f5f5;
+    border: none;
+}
+
+.form-inputs > input:focus{
+    outline: none;
+    background-color: #706a6a;
+}
+
+.landing-right-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
