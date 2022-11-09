@@ -32,6 +32,11 @@ ul {
   display: block;
 }
 
+input:focus{
+  outline: none;
+  border: 3px soild #ccc;
+}
+
 .tertiary-btn{   
     display: inline-block;
     padding: .8rem 4rem;
